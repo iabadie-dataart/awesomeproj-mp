@@ -19,7 +19,7 @@ const Stack = createStackNavigator();
 
 const App = () => {
   return (
-    <SafeAreaView style={{flex: 1, backgroundColor: 'black'}}>
+    <SafeAreaView style={{flex: 1}}>
       <StatusBar />
       <NavigationContainer>
         <Stack.Navigator
